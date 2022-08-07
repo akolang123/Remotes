@@ -5,15 +5,17 @@ include("../keyboard.lua");
 
 -- Layout
 keys = {
-	{ "ESCAPE", "UP", "BACK" },
-	{ "LEFT", "RETURN", "RIGHT" }, 
-	{ "TAB", "DOWN", "MENU" },
-	{ "CONTROL", "SPACE", "LWIN" }
+	{ "C2", "UP", "BACK" },
+	{ "LEFT", "V7", "RIGHT" }, 
+	{ "B1", "DOWN", "V5" },
+	{ "V2", "V1", "V4" }
+	{ "V8", "V3", "V6" }
+	{ "B2", "C1", "C3" }
 };
 
 -- Key Icons
 icons = {
-	BACK = "backspace",
+	BACK = "V8",
 	UP = "up",
 	LEFT = "left",
 	RIGHT = "right",
@@ -22,17 +24,17 @@ icons = {
 
 -- Key Texts
 texts = {
-	SPACE = "Space",
-	CONTROL = "Ctrl",
-	SHIFT = "Shift",
-	LWIN = "Win",
-	MENU = "Alt",
-	RMENU = "AltGr",
-	RETURN = "Enter",
-	DELETE = "Del",
-	ESCAPE = "Esc",
-	TAB = "Tab",
-	FN = "Fn"
+	V1 = "V1",
+	CONTROL = "V2",
+	SHIFT = "V3",
+	LWIN = "V4",
+	MENU = "V5",
+	RMENU = "V6",
+	RETURN = "V7",
+	DELETE = "C1",
+	ESCAPE = "C2",
+	TAB = "B1",
+	FN = "B2"
 };
 
 -- Key Weights
